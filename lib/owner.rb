@@ -15,6 +15,8 @@ class Owner
   def species
     @species
   end
+  def say_species
+    
   def self.all
     @@all
   end
