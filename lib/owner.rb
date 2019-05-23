@@ -9,7 +9,7 @@ class Owner
     @name = name 
     @@all << self
     @@count += 1 
-    @@reset_all << self 
+    @@reset_all << 
   end
   def species
     @species = species
