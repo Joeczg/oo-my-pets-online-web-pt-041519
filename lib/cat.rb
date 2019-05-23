@@ -7,6 +7,10 @@ class Cat
      @mood = "nervous"
   end
   
+  def name 
+    @name
+  end
+  
   
   
   
