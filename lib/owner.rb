@@ -10,7 +10,7 @@ class Owner
     @@all << self
     @@count << self 
     @@reset_all << self
-    
+    @pets = {}
   end
   def species
     @species
