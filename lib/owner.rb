@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_accessor :cat , :dog , :fish, :name
+  attr_accessor :cat , :dog , :fish, :name, @pets
   @@all = []
   @@count = []
   @@reset_all = []
@@ -19,9 +19,7 @@ class Owner
     "I am a human."
   end
   
-  def pets
-    @pets
-  end
+  
   
   def buy_fish(name)
     @pets[:fishes] << Fish.new(name)
