@@ -2,13 +2,13 @@ class Owner
   # code goes here
   attr_accessor :cat , :dog , :fish, :name
   @@all = []
-  @@count = 0
+  @@count = []
   @@reset_all = []
   def initialize(species)
     @species = species
     @name = name 
     @@all << self
-    @@count += 1 
+    @@count << self 
     @@reset_all << self
     
   end
@@ -19,7 +19,7 @@ class Owner
     @@all
   end
   def self.count
-    @@count
+    @@count.size
   end
   def self.reset_all
     @@reset_all << @@all.clear
