@@ -2,7 +2,7 @@ class Cat
   # code goes here
   attr_accessor :mood 
   
-  def intialize(name)
+  def initialize(name)
      @name= name
      @mood = "nevers"
   end
