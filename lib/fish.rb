@@ -1,7 +1,7 @@
 class Fish
   # code goes here
   attr_accessor :mood
-  def initialize(name)
+  def initialize
     @name = name 
     @mood = "nervous"
   end
