@@ -5,14 +5,14 @@ class Owner
   @@count = []
   @@reset_all = []
   def initialize(species)
-    @species = species
+    @species = "human"
     @name = name 
     @@all << self
     @@count << self 
     @@reset_all << self
     
   end
- 
+
   def self.all
     @@all
   end
