@@ -20,6 +20,8 @@ class Owner
   end
   
   def pets
+    @pets
+  end
   def self.all
     @@all
   end
