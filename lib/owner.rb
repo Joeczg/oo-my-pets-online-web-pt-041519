@@ -23,7 +23,10 @@ class Owner
     @pets
   end
   
-  def buy_fish
+  def buy_fish(name)
+    @pets[:fishes] = name
+  end
+    
   def self.all
     @@all
   end
