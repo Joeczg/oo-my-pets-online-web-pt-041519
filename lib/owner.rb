@@ -49,7 +49,7 @@ class Owner
       end
   end
   def list_pets
-    
+    puts "I have #{@pets[:fishes].size} fish, #{@pets[:dogs].size} dog(S), and "
 end
   def self.all
     @@all
