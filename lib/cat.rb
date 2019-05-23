@@ -4,8 +4,10 @@ class Cat
   
   def intialize(name)
      NAME = name
-     @mood = mood
+     @mood = "nevers"
   end
+  
+  
   
   
 end
