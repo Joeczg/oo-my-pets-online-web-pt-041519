@@ -18,4 +18,6 @@ class Owner
   def self.count
     @@count
   end
+  def self.reset_all
+    
 end
