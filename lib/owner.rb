@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_accessor :cat , :dog , :fish, :name, @pets
+  attr_accessor :cat , :dog , :fish, :name, :@pets
   @@all = []
   @@count = []
   @@reset_all = []
